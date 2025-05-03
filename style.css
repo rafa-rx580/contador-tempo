@@ -1,0 +1,34 @@
+*{
+
+}
+
+body{
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-family: 'Mea Culpa';
+    font-size: 2em;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    font-family: 'Mea Culpa', cursive;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+}
+
+#monamour{
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 2em;
+}

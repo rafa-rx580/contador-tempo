@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Mea+Culpa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Lover's Timer</title>
 </head>
 <body>
-    <h1>Lover's Timer</h1>
+    <header>
+        <h1>Lover's Timer</h1>
+    </header>
 
-    <div id="contador">
+    <main>
+        <div id="contador">
+        </div>
+    </main>
 
-    </div>
-
-    <h1>And i still love you, <strong>Monamour</strong></h1>
+    <footer>
+        <h1>And i still love you, <span id="monamour">Monamour</span></h1>
+    </footer>
 
     <script>
         const dataInicial = new Date(2024, 8, 4, 15, 0, 0);
@@ -55,7 +63,7 @@ if (meses < 0){
     anos--;
 }
 
-document.getElementById("contador").textContent = `Te amo já fazem ${meses} meses, ${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos.`;
+document.getElementById("contador").textContent = `Te amo já faz ${meses} meses, ${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos.`;
 }
 
 setInterval(atualizarContador, 1000);
