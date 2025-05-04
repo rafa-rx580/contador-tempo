@@ -1,8 +1,9 @@
 
 body{
-    background-image: url(images/bicicleta.jpg);
+    background-color: #7A2010;
+    background-image: url(images/mona.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     height: 98vh;
     
@@ -32,15 +33,15 @@ footer{
     display: flex;
     justify-content: center;
     font-family: serif;
-    color: rgb(255, 255, 255);
-    text-shadow: black 4px 4px 6px;
+    color: bisque;
+    text-shadow: rgb(0, 0, 0) 4px 4px 6px;
 }
 
 #monamour{
     font-family: 'Lovers Quarrel', cursive;
-    font-size: 2em;
+    font-size: 4em;
     color: red;
-    text-shadow: white 2px 2px 6px;
+    text-shadow: rgb(0, 0, 0) 2px 2px 6px;
 }
 
 .coracao{
